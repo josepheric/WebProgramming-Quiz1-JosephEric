@@ -222,7 +222,7 @@ footer a:focus
     color: white;
 }
 
-.pasarlama{
+.paragraphCenter{
     padding-top: 2em;
     padding-bottom: 2em;
     padding-right: 12em;
@@ -241,7 +241,7 @@ footer a:focus
     background-attachment: scroll;
     background-size: cover;
     text-align: center;
-    padding: 30vh 1em;
+    padding: 25vh 1em;
     color: white;
     font-family: 'Overpass Mono', monospace;
     font-size: 4em;
@@ -272,9 +272,39 @@ footer a:focus
 
     text-align: justify;
     font-family: 'Open Sans', sans-serif;
+    font-size: 1.1em;
     
 }
 
+/*Tourist Page*/
+
+.touristTitle{
+    background-color: rgb(61, 59, 59);
+    background-image: url(../img/mallbanner1.jpg);
+    background-blend-mode:overlay;
+    background-attachment: scroll;
+    background-size: cover;
+    text-align: center;
+    padding: 25vh 1em;
+    color: white;
+    font-family: 'Overpass Mono', monospace;
+    font-size: 4em;
+}
+
+.touristbig1{
+    padding-bottom: 1em;
+}
+
+.paragraphCenter2{
+    padding-top: 1em;
+    padding-bottom: 2em;
+    padding-right: 10em;
+    padding-left: 10em;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+    text-align: justify;
+    letter-spacing: 0.01em;
+}
 
 
 @media screen and (max-width: 600px) {
