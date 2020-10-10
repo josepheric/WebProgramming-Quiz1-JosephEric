@@ -232,3 +232,55 @@ footer a:focus
     text-align: justify;
     letter-spacing: 0.01em;
 }
+
+/*food page*/
+.foodTitle{
+    background-color: rgb(88, 84, 84);
+    background-image: url(../img/foodbanner.jpg);
+    background-blend-mode:overlay;
+    background-attachment: scroll;
+    background-size: cover;
+    text-align: center;
+    padding: 30vh 1em;
+    color: white;
+    font-family: 'Overpass Mono', monospace;
+    font-size: 4em;
+}
+
+.foodbig1{
+    padding-bottom: 5em;
+}
+.row {
+    display: flex;
+    padding-bottom: 5em;
+  }
+  
+.column {
+    padding: 0em 5em 0em 5em;
+    flex: 50%;
+    color:rgb(41, 41, 41);
+  }
+.laksa {
+    text-align: center;
+    letter-spacing: 0.01em;
+    padding-bottom: 0.75em;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.plaksa{
+
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .column1 {
+      width: 100%;
+    }
+  }
+
+ 
