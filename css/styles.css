@@ -57,13 +57,17 @@ nav ul{
     margin: 0;
     padding: 3em 0 0;
     justify-content: space-around;  
+    font-family: 'Overpass Mono', monospace;
+
+    
 }
 
 nav a {
     display: inline-block;
     padding:  0.5em;
-    color: rgb(46, 43, 43);
+    color: rgb(0, 0, 0);
     text-decoration: none;
+    
 }
 
 nav a:hover,
@@ -71,6 +75,7 @@ nav a:focus
 {
     color: gray;
     text-decoration: underline;
+    
 }
 
 .foto
@@ -238,7 +243,7 @@ footer a:focus
     background-color: rgb(88, 84, 84);
     background-image: url(../img/foodbanner.jpg);
     background-blend-mode:overlay;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-size: cover;
     text-align: center;
     padding: 25vh 1em;
@@ -248,10 +253,11 @@ footer a:focus
 }
 
 .foodbig1{
-    padding-bottom: 5em;
+    padding-bottom: 1em;
 }
 .row {
     display: flex;
+    flex-wrap: nowrap;
     padding-bottom: 5em;
   }
   
@@ -282,7 +288,7 @@ footer a:focus
     background-color: rgb(61, 59, 59);
     background-image: url(../img/mallbanner1.jpg);
     background-blend-mode:overlay;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-size: cover;
     text-align: center;
     padding: 25vh 1em;
@@ -297,18 +303,218 @@ footer a:focus
 
 .paragraphCenter2{
     padding-top: 1em;
-    padding-bottom: 2em;
-    padding-right: 10em;
-    padding-left: 10em;
+    padding-bottom: 1.5em;
+    padding-right: 5em;
+    padding-left: 5em;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.2em;
     text-align: justify;
     letter-spacing: 0.01em;
 }
+.whitetitle{
+    padding-top: 4em;
+    padding-bottom: 4em;
+    font-family: 'Overpass Mono', monospace;
+    font-size: 1.25em;
+    text-align: center;
+    letter-spacing: 0.2em;
+}
+.blackbgtitle{
+    
+    background-color: black;
+    color: white;
+}
 
+/*Profile Page*/
+
+
+.profileTitle{
+    background-color: rgb(61, 59, 59);
+    background-image: url(../img/me4.jpeg);
+    background-blend-mode:multiply;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    padding: 50vh 1em;
+    color: white;
+    font-size: 4em;
+    font-family: 'Overpass Mono', monospace;
+    font-size: 2em;
+    letter-spacing: 0.3em;
+}
+
+
+
+.profilebig1{
+    padding-bottom: 5em;
+}
+
+.whitetitle2{
+    font-family: 'Overpass Mono', monospace;
+    font-size: 1.5em;
+    text-align: center;
+    letter-spacing: 0.2em;
+}
+
+.aboutme h3{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.aboutme p{
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+.aboutme{
+    padding-bottom: 3em;
+}
+.hobby h2{
+    background-color: rgb(61, 59, 59);
+    background-image: url(../img/starwar.jpeg);
+    background-blend-mode:multiply;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    padding: 15vh 1em;
+    color: white;
+    font-size: 4em;
+    font-family: 'Overpass Mono', monospace;
+    font-size: 2em;
+    letter-spacing: 0.3em;
+}
+
+.hobby {
+    padding-bottom: 3em;
+}
+
+
+/*Contact Us */
+.sectionform
+{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: consolas;
+	min-height: 10vh;
+}
+.contact
+{
+	box-sizing: border-box;
+	border: 2px solid #000;
+    cursor: pointer;
+    
+}
+.contact:hover
+{
+	background: #000;
+	color: #fff;
+}
+.contact.active:hover
+{
+	background: #fff;
+	color: #000;
+}
+.contact.active
+{
+	min-width: 800px;
+}
+.contact h2
+{
+	margin: 0;
+	padding: 20px;
+	width: 100%;
+    box-sizing: border-box;
+    font-family: 'Overpass Mono', monospace;
+    font-size: 2em;
+}
+.contact h2 span
+{
+	display: inline-block;
+}
+.contact.active h2 span
+{
+	transform: rotate(45deg);
+	float: right;
+}
+form
+{
+	padding: 20px;
+	box-sizing: border-box;
+}
+.contact .row
+{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.contact .row .col-1
+{
+	width: 100%;
+	box-sizing: border-box;
+}
+
+
+.contact label
+{
+	display: block;
+	font-size: 18px;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+.contact input.text,
+.contact textarea
+{
+	width: 100%;
+	border: 2px solid #000;
+	padding: 10px;
+	outline: none;
+	box-sizing: border-box;
+	font-weight: bold;
+	font-size: 18px;
+	font-family: 'Overpass Mono', monospace;
+	resize: none;
+}
+.contact textarea
+{
+	height: 150px;
+}
+.contact input[type="submit"]
+{
+	border: 2px solid #000;
+	padding: 10px;
+	font-size: 18px;
+	color: #fff;
+	background: #000;
+	font-family: 'Overpass Mono', monospace;
+	outline: none;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.contact form
+{
+	visibility: hidden;
+	display: none;
+	transition: 0.5s;
+}
+.contact.active form
+{
+	visibility: visible;
+	display: block;
+}
+
+::placeholder
+{
+	color: #d8d8d8;
+}
 
 @media screen and (max-width: 600px) {
-    .column1 {
+    .column {
       width: 100%;
     }
   }
