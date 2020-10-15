@@ -398,7 +398,7 @@ footer a:focus
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-family: consolas;
+	font-family: 'Overpass Mono', monospace;
 	min-height: 10vh;
 }
 .contact
