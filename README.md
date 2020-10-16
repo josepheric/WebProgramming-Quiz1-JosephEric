@@ -1,4 +1,4 @@
-# ProWeb-Quiz1-JosephEric
+# WebProgramming-Quiz1-JosephEric
 This is the source code and resources used to create my Website.
 You can visit my website here: https://josephericamadeo.000webhostapp.com/quiz1/
 
